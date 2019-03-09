@@ -11,6 +11,7 @@ public class BowlingBallMovement : MonoBehaviour
     private Vector3 ballPosition;
     void Start()
     {
+        // gets all the pins 
         var pins = GameObject.FindGameObjectsWithTag("Pin");
         pinPositions = new List<Vector3>();
         pinRotations = new List<Quaternion>();
